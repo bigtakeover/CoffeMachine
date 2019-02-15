@@ -12,6 +12,7 @@
 		2C700D042216C3A100EDE385 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C700D022216C3A100EDE385 /* Main.storyboard */; };
 		2C700D062216C3A400EDE385 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C700D052216C3A400EDE385 /* Assets.xcassets */; };
 		2C700D092216C3A400EDE385 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C700D072216C3A400EDE385 /* LaunchScreen.storyboard */; };
+		2C700D112216E7F500EDE385 /* DamnedCoffeMachine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C700D102216E7F500EDE385 /* DamnedCoffeMachine.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2C700D052216C3A400EDE385 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C700D082216C3A400EDE385 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C700D0A2216C3A400EDE385 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C700D102216E7F500EDE385 /* DamnedCoffeMachine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamnedCoffeMachine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				2C700CFE2216C3A100EDE385 /* AppDelegate.swift */,
 				2C700D002216C3A100EDE385 /* ViewController.swift */,
+				2C700D102216E7F500EDE385 /* DamnedCoffeMachine.swift */,
 				2C700D022216C3A100EDE385 /* Main.storyboard */,
 				2C700D052216C3A400EDE385 /* Assets.xcassets */,
 				2C700D072216C3A400EDE385 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				2C700D012216C3A100EDE385 /* ViewController.swift in Sources */,
 				2C700CFF2216C3A100EDE385 /* AppDelegate.swift in Sources */,
+				2C700D112216E7F500EDE385 /* DamnedCoffeMachine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
