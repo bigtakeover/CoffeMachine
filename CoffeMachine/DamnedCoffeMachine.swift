@@ -17,19 +17,19 @@ class DamnedCoffeMachine: NSObject {
     
     
     func addHolyWater() {
-        holyWater += 666
+        holyWater += 13
     }
     
     func addEvilSeeds() {
-        evilSeeds += 666
+        evilSeeds += 13
     }
     
     func addExpiredMilk() {
-        expiredMilk += 666
+        expiredMilk += 13
     }
     
     func addCocaine() {
-        cocaine += 666
+        cocaine += 13
     }
 
     
@@ -40,7 +40,7 @@ class DamnedCoffeMachine: NSObject {
 //    }
     
     
-    func makeShitCoffee(name: String, seedsNeed: Int, holyWaterNeed: Int, expiredMilkNeed: Int, cocaineNeed: Int) {
+    func makeShitCoffee(name: String, seedsNeed: Int, holyWaterNeed: Int, expiredMilkNeed: Int, cocaineNeed: Int) -> String {
         if evilSeeds > seedsNeed {
             if holyWater > holyWaterNeed {
                 if expiredMilk > expiredMilkNeed {
@@ -49,29 +49,29 @@ class DamnedCoffeMachine: NSObject {
                         holyWater -= holyWaterNeed
                         expiredMilk -= expiredMilkNeed
                         cocaine -= cocaineNeed
-                        print ("Your shit \(name) is ready, bitch!")
+                        return ("Your shit \(name) is ready, bitch!")
                     } else {
-                        print("Need some Florida snow, dude!")
+                        return ("Need some Florida snow, dude!")
                     }
                 } else {
-                    print ("If you want to save your soul, add milk!")
+                    return ("If you want to save your soul, add milk!")
                 }
             }
             else {
-                print ("Hey, moron, you`d better add water or I`ll kick yo ass!")
+                return ("Hey, moron, you`d better add water or I`ll kick yo ass!")
             }
         }
         else {
-            print ("Box for seeds is empty, fool!")
+            return ("Box for seeds is empty, fool!")
         }
     }
 
-    func makingHotLikeHellAmericano() {
-        makeShitCoffee(name: "americano", seedsNeed: 13, holyWaterNeed: 20, expiredMilkNeed: 7, cocaineNeed: 1)
+    func makingHotLikeHellAmericano() -> String {
+     return  makeShitCoffee(name: "americano", seedsNeed: 13, holyWaterNeed: 20, expiredMilkNeed: 7, cocaineNeed: 1)
     }
     
-    func makingCappuccinoCocaina() {
-        makeShitCoffee(name: "cappuccino", seedsNeed: 18, holyWaterNeed: 34, expiredMilkNeed: 11, cocaineNeed: 2)
+    func makingCappuccinoCocaina() -> String {
+      return  makeShitCoffee(name: "cappuccino", seedsNeed: 18, holyWaterNeed: 34, expiredMilkNeed: 11, cocaineNeed: 2)
     }
     
 //    func makingHotLikeHellAmericano() {

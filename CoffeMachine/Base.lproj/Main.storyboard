@@ -23,9 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Americano"/>
                                 <connections>
-                                    <action selector="buttonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="nFe-uU-gL0"/>
-                                    <action selector="buttonPressedForAmericano" destination="BYZ-38-t0r" eventType="touchUpInside" id="x8k-2N-zBj"/>
-                                    <action selector="makingHotLikeHellAmericano" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Km-pU-jwf"/>
+                                    <action selector="buttonPressedForAmericano" destination="BYZ-38-t0r" eventType="touchUpInside" id="5oR-NS-hhB"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eVP-ML-9DK">
@@ -35,21 +33,12 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qh4-Ks-hPM">
-                                <rect key="frame" x="191" y="366" width="104" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Cappuccino"/>
-                                <connections>
-                                    <action selector="buttonForCappuccino" destination="BYZ-38-t0r" eventType="touchUpInside" id="NbK-Wx-qk9"/>
-                                    <action selector="buttonPressedForCappuccino" destination="BYZ-38-t0r" eventType="touchUpInside" id="xWz-az-iZk"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b2m-Nm-jsm">
                                 <rect key="frame" x="115" y="144" width="74" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Seeds"/>
                                 <connections>
-                                    <action selector="buttonPressedAddSeeds" destination="BYZ-38-t0r" eventType="touchUpInside" id="4dk-0Z-16v"/>
+                                    <action selector="buttonPressedAddSeeds" destination="BYZ-38-t0r" eventType="touchUpInside" id="KBd-BZ-DHs"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N2f-R5-djw">
@@ -57,7 +46,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Milk"/>
                                 <connections>
-                                    <action selector="buttonPressedAddMilk" destination="BYZ-38-t0r" eventType="touchUpInside" id="fe0-Or-f0S"/>
+                                    <action selector="buttonPressedAddMilk" destination="BYZ-38-t0r" eventType="touchUpInside" id="MRr-Ph-geF"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2EF-wp-O0m">
@@ -65,7 +54,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Water"/>
                                 <connections>
-                                    <action selector="buttonPressedAddWater" destination="BYZ-38-t0r" eventType="touchUpInside" id="iYh-Ge-eiz"/>
+                                    <action selector="buttonPressedAddWater" destination="BYZ-38-t0r" eventType="touchUpInside" id="8eO-2W-ufJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OCT-pz-855">
@@ -73,7 +62,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Add Cocaine"/>
                                 <connections>
-                                    <action selector="buttonPressedAddCocaine" destination="BYZ-38-t0r" eventType="touchUpInside" id="OhP-8Y-fVk"/>
+                                    <action selector="buttonPressedAddCocaine" destination="BYZ-38-t0r" eventType="touchUpInside" id="1qa-mr-ILp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qh4-Ks-hPM">
+                                <rect key="frame" x="200" y="366" width="104" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Cappuccino"/>
+                                <connections>
+                                    <action selector="buttonPressedForCappuccino" destination="BYZ-38-t0r" eventType="touchUpInside" id="o17-ZJ-eNg"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -81,7 +78,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="deathMachineMessagesLabel" destination="eVP-ML-9DK" id="BkD-e6-jLC"/>
+                        <outlet property="deathMachineMessagesLabel" destination="eVP-ML-9DK" id="LJs-R1-a8f"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     
     
     
+    
     @IBAction func buttonPressedAddSeeds() {
         deathMachine.addEvilSeeds()
         }
@@ -56,7 +57,7 @@ class ViewController: UIViewController {
         showMessagesFromDethMachine()
      
         let stringToShow = deathMachine.makingHotLikeHellAmericano()
-        deathMachineMessagesLabel.text = 
+        deathMachineMessagesLabel.text = stringToShow
         
         
         
